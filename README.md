@@ -4,10 +4,13 @@ whereami wrapper for janet
 
 ## use from source
 
-Clone with submodules, or use `git submodule update --init`
 ```
+git clone --recurse-submodules https://github.com/Saikyun/janet-whereami
+cd janet-whereami
 jpm build
 ```
+
+### try in repl
 
 ```
 janet
