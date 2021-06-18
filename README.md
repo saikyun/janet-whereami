@@ -28,3 +28,5 @@ repl:4:>
 ```
 [sudo] jpm install https://github.com/saikyun/janet-whereami
 ```
+
+When using this dependency, I think you need to run `jpm build` too. Will try to figure out how to autobuild.
