@@ -1,6 +1,10 @@
 (declare-project
   :name "janet-whereami"
-  :author "saikyun")
+  :author "saikyun"
+  :license "MIT"
+  :description "Janet wrapper for whereami -- which lets you get the path to a built binary. Useful for relative paths."
+  :url "https://github.com/saikyun/janet-whereami"
+  :repo "git+https://github.com/saikyun/janet-whereami")
 
 (def o (os/which))
 
@@ -10,6 +14,6 @@
   :cflags ["-Iwhereami/src"]
 
   :source ["janet_whereami.c"
-              "whereami/src/whereami.c"]
+           "whereami/src/whereami.c"]
 
   :headers ["whereami/src/whereami.h"])
