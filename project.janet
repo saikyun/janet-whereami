@@ -3,8 +3,8 @@
   :author "saikyun"
   :license "MIT"
   :description "Janet wrapper for whereami -- which lets you get the path to a built binary. Useful for relative paths."
-  :url "https://github.com/saikyun/janet-whereami"
-  :repo "git+https://github.com/saikyun/janet-whereami")
+  :url "https://github.com/Saikyun/janet-whereami"
+  :repo "git+https://github.com/Saikyun/janet-whereami")
 
 (def o (os/which))
 
